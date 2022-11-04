@@ -2,7 +2,7 @@ function sendEmail(){
     Email.send({
         Host : "smtp.gmail.com",
         Username : 'awasthiharshil12@gmail.com',
-        Password : "mwwdheccmabpcxry",
+        Password : "pass",
         To : 'awasthi0351@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Enquiry",
